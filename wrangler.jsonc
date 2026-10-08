@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "tw-dividend-calculator",
+  "compatibility_date": "2026-10-01",
+  // 純靜態網站：只部署 npm run build 產生的 dist 資料夾，沒有 Worker 程式碼
+  "assets": {
+    "directory": "./dist"
+  }
+}
